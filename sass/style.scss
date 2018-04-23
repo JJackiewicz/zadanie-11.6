@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    background-color: lightgrey;
+ 
+   .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: flex-start;
+        .column {
+           display: flex;
+           flex-direction: column;
+           justify-content: center; 
+           text-align: center;
+           width: 100%;
+           min-width: 200px;
+           max-width: 25%;
+           padding: 10px;
+           .btn {
+               margin: 5px;
+           }
+           ul {
+               list-style-type: none;
+               padding-left: 0;
+           .card {
+            min-width: 200px;
+            width: 100%;
+            cursor: pointer;
+                p {
+                    margin: 5px;
+                    background-color: lightcyan;
+                }
+            }
+       }
+   }
+   }
+}
